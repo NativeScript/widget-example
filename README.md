@@ -2,6 +2,8 @@
 
 📲👉 https://blog.nativescript.org/add-home-screen-widget/
 
+https://github.com/NativeScript/widget-example/assets/457187/1912cf11-e6d9-4ee5-957d-48dd7051085b
+
 ## Notes to run it yourself
 
 1. This example uses it's own `DEVELOPMENT_TEAM` and `PROVISIONING_PROFILE`'s for both the app and the widget as well as it's own App ID's for both.
