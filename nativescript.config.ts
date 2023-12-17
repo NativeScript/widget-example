@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'com.nativescript.widgetexample',
+  id: 'org.nativescript.widgetexample',
   appPath: 'app',
   appResourcesPath: 'App_Resources',
   android: {

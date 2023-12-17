@@ -1,9 +1,18 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
     <ActionBar title="My App" icon="" />
 
-    <StackLayout class="p-20">
-        <Label text="Tap the button" class="h1 text-center" />
-        <Button text="TAP" tap="{{ onTap }}" class="-primary" />
-        <Label text="{{ message }}" class="h2 text-center" textWrap="true" />
-    </StackLayout>
+    <GridLayout rows="" columns="">
+        <GridLayout class="p-20" rows="*,auto,*">
+            <StackLayout row="1">
+                <Label text="Widgets" class="text-center font-weight-bold" fontSize="20" />
+                <Button text="NEXT" tap="{{ onTap }}" class="-primary m-t-20" borderRadius="30" />
+                <Label text="{{ message }}" class="h2 text-center m-t-20" textWrap="true" />
+            </StackLayout>
+        </GridLayout>
+
+        <GridLayout verticalAlignment="top" marginBottom="20" loaded="{{loadedRocket}}">
+            <Label text="🚀" class="h2 text-center" />
+        </GridLayout>
+
+    </GridLayout>
 </Page>
